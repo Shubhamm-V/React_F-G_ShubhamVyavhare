@@ -1,7 +1,7 @@
 
 Site is live on:  https://senpiper-assignment.netlify.app/
 
-<h2> Features </h2>
+<h2>Key Features </h2>
 * Site is fully mobile responsive. <br>
 * Added proper form validation for any incorrect input.<br>
 * All data is stored in Local storage of browser.<br>
