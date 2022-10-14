@@ -1,0 +1,49 @@
+.customerData{
+  width: 100%;
+  height: 70vh;
+  font-family: 'Outfit';
+  color: rgb(59, 75, 91);
+  overflow-y: scroll;
+}
+.customerData::-webkit-scrollbar{
+  display: none;
+}
+table {
+    border: 1px solid gainsboro;
+    width: 94%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow: scroll;
+    font-size: 0.9rem;
+    overflow-x: scroll;
+  }
+  thead{
+    background-color: rgb(244, 242, 242);
+  }
+  th {
+    border-bottom: 1px solid gainsboro;
+    border: 1px solid gainsboro;
+    padding: 0.5rem 2rem;
+    color:rgb(66, 65, 65)
+  }
+  td {
+    text-align: center;
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 1rem 1.5rem;
+  }
+
+  @media (max-width:450px) {
+      .customerData{
+        margin-top: 2rem;
+        height: 65vh;
+        overflow-x: scroll;
+
+      }
+      th{
+        padding: 0 1rem;
+      }
+      table{
+        margin-left: 0.5rem;
+      }
+  }

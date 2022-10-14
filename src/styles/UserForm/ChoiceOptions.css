@@ -1,0 +1,32 @@
+.choiceOptions {
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.choiceOption {
+  margin-left: 0.3rem;
+}
+.choiceOption > input {
+  height: 1rem;
+  width: 1rem;
+}
+.choiceOptions > .choiceOption > label {
+  font-weight: 200;
+  padding-left: 0.7rem;
+}
+
+.inValidUserInput {
+  margin-bottom: 3rem;
+}
+@media (max-width: 450px) {
+  .choiceOptions {
+    margin-bottom: 1rem;
+  }
+  .choiceOption {
+    flex-basis: 48%;
+  }
+}

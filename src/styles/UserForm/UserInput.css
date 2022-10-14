@@ -1,0 +1,94 @@
+.userInput{
+    padding: 1.2rem 2rem;
+    font-family: 'Outfit';
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.userInput__name{
+    flex-basis: 46%;
+    margin-bottom: 1.5rem;
+}
+.userInput__email{
+    flex-basis: 46%;
+    margin-bottom: 1.5rem;;
+}
+.userInput__phone{
+    flex-basis: 46%;
+    margin-bottom: 1.5rem;
+}
+.userInput__phone > label {
+    margin-bottom: 2rem;
+}
+.userInput > div > label{
+    font-weight: 550;
+    color: rgb(63, 62, 62);
+    display: block;
+    margin-left: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+.userInput > div > label > span{
+    color: rgb(202, 92, 92);
+    font-size: 1rem;
+}
+.userInput > div > input, .phoneInput > input    {
+    height: 2.2rem;
+    border: 1px solid rgb(161, 160, 160);
+    width: 95%;
+    margin-left: 1rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    padding-left: 0.4rem;
+}
+
+.userInput > div > input::placeholder {
+    padding: 0.6rem;  
+}
+
+.phoneInput{
+    height: 2.2px;
+    width: 95%;
+    margin-top:1.8rem;
+    margin-left: 1.5rem;
+    padding: 0; 
+    outline: none;
+    padding-bottom: 1.5rem;
+}
+.phoneInput > input {
+    margin-left: 0;
+    padding-left: 0.5rem;
+}
+.phoneInput > input::placeholder{
+    padding: 0.6rem;  
+}
+
+.invalidInput{
+    color: rgb(181, 35, 35);
+    background-color: rgb(254, 233, 233);
+    border: 1px solid red;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width: 450px) {
+    .userInput{
+        padding: 1.5rem 1.2rem;
+    }
+    .userInput__name{
+        flex-basis: 100%;
+    }
+    .userInput__email{
+        flex-basis: 100%;
+    }
+    .userInput__phone{
+        flex-basis: 98%;
+    }
+}

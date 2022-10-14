@@ -1,0 +1,36 @@
+.userChoices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  padding-right: 2.5;
+  font-family: "Outfit";
+}
+.userChoice {
+  flex-basis: 46%;
+}
+.userChoice > label > span {
+  color: rgb(202, 92, 92);
+  font-size: 1rem;
+}
+.userChoice > label {
+  margin-left: 0.5rem;
+  font-weight: 550;
+  color: rgb(63, 62, 62);
+  display: block;
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+.notValid {
+  margin-top: 0;
+  background-color: green;
+}
+@media (max-width: 450px) {
+  .userChoices {
+    padding: 0.5rem 1rem;
+  }
+  .userChoice {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.tableInfo{
+    max-width: 1400px;
+    margin: 1rem auto;
+    margin-top: 0;
+    padding-top: 1rem;
+    background-color: rgb(244, 246, 248);
+    box-shadow: 0 1px 1px hsl(212, 45%, 89%), 0 1px 1px hsl(220, 15%, 55%);
+}
+.deleteSection{
+    max-width: 1400px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(244, 246, 248);
+    padding: 1rem 0;
+    box-shadow: 0 1px 1px hsl(212, 45%, 89%), 0 1px 1px hsl(220, 15%, 55%);
+}
+
+.deleteSection > button{
+    background-color: rgb(220, 54, 145);
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    border: 1px solid rgb(139, 14, 82);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.deleteSection > button:hover{
+    background-color: rgb(139, 14, 82);
+}
+

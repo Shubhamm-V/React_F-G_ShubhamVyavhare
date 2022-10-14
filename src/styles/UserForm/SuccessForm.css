@@ -1,0 +1,49 @@
+.container{
+    height: 96vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Outfit';
+}
+.successForm{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.successForm > .success{
+    width: 75px;
+    height: auto;
+    color: rgb(9, 161, 78);
+    margin-bottom: 2.5rem;
+}
+.successForm > h2{
+    color: rgb(114, 107, 107);
+    margin-bottom: 0.5rem;
+}
+.successForm > p{
+    color: rgb(154, 141, 141);
+    font-size: 1.2rem;
+}
+.successForm > button{
+    padding: 0.6rem 3rem;
+    color: white;
+    background-color: rgb(151, 102, 230);
+    border: 1px solid rgb(160, 97, 224);
+    border-radius: 5px;
+    margin-top: 2.5rem;
+    font-weight: 550 ;
+    cursor: pointer;
+}
+
+.successForm > button:hover{
+    background-color: rgb(145, 80, 133)
+}
+
+@media (max-width: 450px) {
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,53 @@
+.userForm {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(249, 250, 250);
+  padding-top: 0.5rem;
+}
+.formHeader {
+  margin: 1rem 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px hsl(212, 45%, 89%), 0 1px 1px hsl(220, 15%, 55%);
+}
+
+.formHeader > h1 {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-family: "Outfit";
+  padding: 5px 3rem;
+  font-weight: 550;
+  color: rgb(47, 44, 44);
+}
+
+.userInfo {
+  margin: 2rem 1rem;
+  margin-top: 1rem;
+  padding-bottom: 3.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px hsl(212, 45%, 89%), 0 1px 1px hsl(220, 15%, 55%);
+}
+
+.formSubmit {
+  padding: 1.5rem 1rem;
+  margin: 1rem 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px hsl(212, 45%, 89%), 0 1px 1px hsl(220, 15%, 55%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formSubmit > button {
+  color: #fff;
+  background-color: rgb(4, 113, 4);
+  border: 1px solid green;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formSubmit > button:hover {
+  background-color: rgb(5, 82, 5);
+}
+
+
