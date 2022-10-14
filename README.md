@@ -1,3 +1,6 @@
+
+Site is live on:  https://senpiper-assignment.netlify.app/
+
 <h2>SetUp Instructions</h2>
 
 Install following packages for setup: 
